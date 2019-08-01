@@ -3,42 +3,37 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  background-image: url('Images/Desktop\ HD.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  object-fit: contain;
-  overflow: hidden;
-}
-.nav {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 5%;
-  padding-right: 5%;
+
+.con {
+  height: 100%;
 }
 
-.width {
-  max-width: 1140px;
+.con .bg {
+  opacity: 1;
+  transform: none;
 }
 
-.nav .width {
-  align-items: center;
+.bg {
+  background: url('images/Desktop\ HD.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.fuckyou {
   display: flex;
-  justify-content: space-between;
-}
-
-.main-nav {
-  display: flex;
-  text-decoration: none;
-}
-
-.main-nav li {
-  list-style: none;
-  margin-left: 25px;
-  display: inline-flex;
-}
-
-.nav a {
-  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  bottom: 50%;
+  right: 50%;
+  font-family: 'Roboto Mono', monospace;
   color: whitesmoke;
 }
