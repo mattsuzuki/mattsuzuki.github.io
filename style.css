@@ -11,9 +11,6 @@
 .con .bg {
   opacity: 1;
   transform: none;
-}
-
-.bg {
   background: url('images/Desktop\ HD.png');
   background-size: cover;
   background-position: center center;
